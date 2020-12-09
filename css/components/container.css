@@ -1,0 +1,37 @@
+h1 {
+	color: #CC0099;
+	font-family: 'Parisienne', cursive;
+}
+
+h2 {color: #FFFFFF;
+font-family: 'Noto Serif', serif;
+font-weight: bold;
+}
+
+a {
+	text-decoration: none;
+	color:#FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+a:hover {
+	color: #FFFFFF;
+	font-family: 'Open Sans Condensed', sans-serif;
+}
+
+.container {
+	width: 700px;
+	margin: 40px auto;		
+	text-align: center;
+}
+
+@media (max-width: 720px){
+	.container {
+		width: 600px
+	}
+}
+@media (max-width: 540px){
+	.container {
+		width: 400px
+	}
+}
